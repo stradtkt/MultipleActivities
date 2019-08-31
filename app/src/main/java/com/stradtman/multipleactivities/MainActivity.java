@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void jumpToSecondActivity(View view) {
         Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+        intent.putExtra("username", "Kevin");
         startActivity(intent);
     }
 
