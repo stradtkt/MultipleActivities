@@ -20,6 +20,6 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Intent intent = getIntent();
-        Toast.makeText(this, intent.getStringExtra("username"), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, intent.getStringExtra("name"), Toast.LENGTH_LONG).show();
     }
 }
